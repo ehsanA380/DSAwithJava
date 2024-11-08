@@ -2,12 +2,12 @@ package com.Ehsan;
 
 public class RBS {
     public static void main(String[] args) {
-//        int [] arr = {4,5,6,7,0,1,2};
-        int [] arr = {1,3,5};
+        int [] arr = {4,5,6,7,0,1,2};
+//        int [] arr = {5,5,1,3,5};
 
         System.out.println(findPivot(arr));
 //        System.out.println(search(arr,1));
-        System.out.println(search(arr,5));
+//        System.out.println(search(arr,5));
     }
     static int search(int[] nums, int target){
         int pivot = findPivot(nums);
@@ -42,6 +42,8 @@ public class RBS {
         return -1;
     }
     static int findPivot(int[] arr){
+        // this is only work for unique data in array
+        // it does not work if array contain duplicate element
         int start = 0;
         int end = arr.length-1;
         while(start<=end){

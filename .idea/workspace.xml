@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="173774d1-978f-4014-89a1-c28a3dedc5a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchQuestions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Ehsan/FirstAndLastPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Ehsan/InfiniteArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Ehsan/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Ehsan/MountainArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Ehsan/RBS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Ehsan/SearchInMountainArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Ehsan/SmallestLetter.java" afterDir="false" />
+    <list default="true" id="173774d1-978f-4014-89a1-c28a3dedc5a2" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/com/Ehsan/BallArrangementTCSQues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ehsan/Check_Pangram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ehsan/SplitArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ehsan/SplitArraySmallestMaximumSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ehsan/TCS_ConisProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Ehsan/TCS_Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Ehsan/RBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Ehsan/RBS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,6 +57,14 @@
       <option name="presentableId" value="Default" />
       <updated>1727068174320</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1727201469968</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727201469968</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -64,11 +72,42 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -82,10 +121,14 @@
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/Ehsan/RBS.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="6" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/Ehsan/BallArrangementTCSQues.java</url>
+          <line>15</line>
+          <properties class="com.Ehsan.BallArrangementTCSQues" method="countWays">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
